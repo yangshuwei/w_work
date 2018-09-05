@@ -14,7 +14,7 @@ class RequestInterface {
      * @param params
      * @returns {Promise}
      */
-    static requestGet(reqUrl,params){
+    static requestGet(url,opt){
         return new Promise((resolve,reject)=>{
             let reqUrl =opt ? url + "?" + querystring.stringify(opt) : url;
             console.log('请求url->',url);
@@ -36,7 +36,7 @@ class RequestInterface {
      * @param params
      * @returns {Promise}
      */
-    static async requestPost(reqUrl,params,header){
+    static async requestPost(reqUrl,opt,header){
         let _this = this;
         let headers = {"content-type": "application/json","from":"mobile"};
         Object.assign(headers,header);
@@ -65,4 +65,4 @@ class RequestInterface {
 
     }
 }
-module.exports = _Service;
+module.exports = RequestInterface;

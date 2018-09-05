@@ -1,7 +1,7 @@
 const path = require('path');
 
 function pathJoin(_path){
-    return path.join(_dirname,_path);
+    return path.join(__dirname,_path);
 }
 
 let map = new Map();
@@ -9,7 +9,7 @@ let map = new Map();
 map.set('dev',{port:3000});
 
 map.set('prd',{port:81});
-
+process.env.NODE_ENV = 'dev';
 let _port = map.get(process.env.NODE_ENV);
 
 let basic_config = {
@@ -17,10 +17,11 @@ let basic_config = {
     controller:pathJoin('../controller/'),
     view:pathJoin('../view/'),
     public:pathJoin('../public/'),
-    router:pathJoin('../router/'),
-    servers:pathJoin('../servers')
+    router:pathJoin('../routers/'),
+    servers:pathJoin('../servers'),
+    port: _port.port
 }
-
+global.YUS = basic_config;
 module.exports = {
-    basic_config
+    global
 }

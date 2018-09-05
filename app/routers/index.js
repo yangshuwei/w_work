@@ -7,11 +7,11 @@ const router = require('koa-router')();
  */
 function addControllers(router,dir){
     //获取制定目录下所有文件名
-    fs.readdirSync(basic_config.controller+dir).filter((f)=>{
+    fs.readdirSync(YUS.controller+dir).filter((f)=>{
         return f.endsWith('.js');
     }).forEach((f)=>{
         //获取每一个controller文件，引入
-        let file = require(basic_config.controller+`${dir}/${f}`);
+        let file = require(YUS.controller+`${dir}/${f}`);
         addRoute(router, file);
     })
 }
@@ -52,7 +52,7 @@ function filterFolder(url){
     })
 }
 
-let allFolder = filterFolder(basic_config.controller);
+let allFolder = filterFolder(YUS.controller);
 
 allFolder.forEach((item)=>{
     addControllers(router,item);
