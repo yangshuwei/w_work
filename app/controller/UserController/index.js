@@ -1,9 +1,13 @@
 const user = require(`${YUS.servers}/UserModel/index`);
-console.log(user)
+const reqUrl = require('../../config/serverUrlMap').serverUrl('/sg/cms/revision/getCategory.json');
+console.log(reqUrl)
 module.exports={
     'GET /':async (ctx,next) => {
-        let data = await user.getDetailData('http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json',{type:6});
-        console.log(data)
+        let data = await user.getDetailData(reqUrl,{type:6});
+        // console.log(JSON.stringify(ctx.request.header['user-agent'].toLowerCase()))
+        // var deviceAgent = ctx.request.header["user-agent"].toLowerCase();
+        // var agentID = deviceAgent.match(/(iphone|ipod|ipad|android)/);
+        // console.log(agentID)
         await ctx.render('UserView/index',{"data":data});
     }
 }

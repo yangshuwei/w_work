@@ -8,8 +8,10 @@ let map = new Map();
 
 map.set('dev',{port:3000});
 
+map.set('test',{port:38080});
+
 map.set('prd',{port:81});
-process.env.NODE_ENV = 'dev';
+// process.env.NODE_ENV = 'prd';
 let _port = map.get(process.env.NODE_ENV);
 
 let basic_config = {

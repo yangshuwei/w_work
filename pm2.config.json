@@ -1,0 +1,36 @@
+{
+    "apps": [
+      {
+        "name": "ysw",
+        "script": "app.js",
+          "watch": [
+          "app"
+        ],
+        "ignore_watch":[
+            "node_modules", ".idea", ".svn", ".git", "public"
+        ],
+        "cwd": "./",
+        "instances": 1,
+        "log_date_format": "YYYY-MM-DD HH:mm:ss",
+        "date_format": "YYYY-MM-DD HH:mm:ss",
+        "out_file": "log/out.log",
+        "error_file": "log/error.log",
+        "exec_mode": "fork",
+        "merge_logs": true,
+        "max_memory_restart": "800M",
+        "autorestart": true,
+        "env": {
+          "NODE_ENV": "dev"
+        },
+        "env_test": {
+            "NODE_ENV": "test"
+        },
+        "env_pre": {
+            "NODE_ENV": "pre"
+        },
+        "env_product": {
+            "NODE_ENV": "prd"
+        }
+      }
+    ]
+  }
