@@ -15,17 +15,18 @@ class RequestInterface {
      * @returns {Promise}
      */
     static requestGet(url,opt){
-        return new Promise((resolve,reject)=>{
+         return  new Promise((resolve,reject)=>{
             let reqUrl =opt ? url + "?" + querystring.stringify(opt) : url;
             console.log('请求url->',url);
             request(reqUrl,(err,res,body)=>{
                 console.log("返回code->",res.statusCode," 返回data-> ",body);
-                if(!err && res.statusCode == 200){
-                    resolve(body)
-                }else{
-                    console.error(err);
-                    reject({});
-                }
+                    if(!err && res.statusCode == 200){
+                        resolve(body)
+                    }else{
+                        console.log(err)
+                        reject({});
+                    }
+                    
             });
         })
     }

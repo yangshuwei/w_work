@@ -14,7 +14,7 @@ const config = require('./config/base.js');
 const router = require(YUS.router + 'index');
 
 // const status404 = require('./middle/404')
-// const status500 = require('./middle/500')
+const status = require('./middle/error');
 
 let index = function (app) {
     //1.错误提示
@@ -50,16 +50,11 @@ let index = function (app) {
     app.use(views(YUS.view, {
       map : {html:'ejs'}
     }));
-    // render(app, {
-    //     root: YUS.public.view,
-    //     extname: '.html',
-    //     debug: process.env.NODE_ENV !== 'production'
-    //   });
     //7.路由
     app.use(router.router);
     app.use(router.methods);
     //404 500
-    // app.use(status404);
+    app.use(status.status_404);
     // app.use(status500);
     app.on('error', function(err,ctx){
         console.log(err);
