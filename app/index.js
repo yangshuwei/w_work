@@ -14,7 +14,7 @@ const config = require('./config/base.js');
 const router = require(YUS.router + 'index');
 
 // const status404 = require('./middle/404')
-const status = require('./middle/error');
+const _error = require('./middle/error');
 
 let index = function (app) {
     //1.错误提示
@@ -54,7 +54,7 @@ let index = function (app) {
     app.use(router.router);
     app.use(router.methods);
     //404 500
-    app.use(status.status_404);
+    app.use(_error._404);
     // app.use(status500);
     app.on('error', function(err,ctx){
         console.log(err);

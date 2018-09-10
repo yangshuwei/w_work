@@ -1,6 +1,6 @@
 "use script"
 module.exports = class{
-    static async status_404(ctx,next){
+    static async _404(ctx,next){
         await next();
         if(ctx.status == '404'){
             await ctx.render('default/404',{
@@ -8,7 +8,7 @@ module.exports = class{
             })
         }
     }
-    static async status_500(ctx,next){
+    static async _500(ctx,next){
         await next();
         if(ctx.status == '500'){
             await ctx.render('default/500',{

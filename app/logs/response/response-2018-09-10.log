@@ -1486,3 +1486,75 @@ response body:
 "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    [object Object]\r\n</body>\r\n</html>"
 *************** response log end ***************
 
+[2018-09-10T18:22:48.989] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /detail?%22script%22
+request client ip:  ::1
+request query:  {"\"script\"":""}
+response time: 60
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    [object Object]\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-09-10T18:23:18.232] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /detail?%22%3Cscript%3Ealert(111)%3C/script%3E%22
+request client ip:  ::1
+request query:  {"\"<script>alert(111)</script>\"":""}
+response time: 57
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    [object Object]\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-09-10T18:23:28.564] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /detail%22%3Cscript%3Ealert(111)%3C/script%3E%22
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    Not Found\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-09-10T18:23:34.840] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /detail
+request client ip:  ::1
+request query:  {}
+response time: 77
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    [object Object]\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-09-10T18:30:51.069] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /detailfd
+request client ip:  ::1
+request query:  {}
+response time: 15
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    Not Found\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-09-10T18:32:43.059] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /detailfd
+request client ip:  ::1
+request query:  {}
+response time: 20
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title> Not Found</title>\r\n</head>\r\n<body>\r\n    Not Found\r\n</body>\r\n</html>"
+*************** response log end ***************
+

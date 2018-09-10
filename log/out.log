@@ -120,3 +120,74 @@
      { id: 85, labelName: '电子礼品卡' },
      { id: 86, labelName: '医疗冷柜' } ],
   totalCount: 0 }
+2018-09-10 18:25:07: [Function]
+2018-09-10 18:25:07: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:25:07: 服务启动 localhost:38080||环境：test
+2018-09-10 18:29:51: [Function]
+2018-09-10 18:29:51: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:52: [Function]
+2018-09-10 18:29:52: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:53: [Function]
+2018-09-10 18:29:53: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:54: [Function]
+2018-09-10 18:29:54: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:55: [Function]
+2018-09-10 18:29:55: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:56: [Function]
+2018-09-10 18:29:56: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:56: [Function]
+2018-09-10 18:29:56: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:57: [Function]
+2018-09-10 18:29:57: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:58: [Function]
+2018-09-10 18:29:58: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:29:59: [Function]
+2018-09-10 18:29:59: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:00: [Function]
+2018-09-10 18:30:00: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:00: [Function]
+2018-09-10 18:30:00: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:01: [Function]
+2018-09-10 18:30:01: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:02: [Function]
+2018-09-10 18:30:02: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:03: [Function]
+2018-09-10 18:30:03: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:04: [Function]
+2018-09-10 18:30:04: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:09: [Function]
+2018-09-10 18:30:09: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:09: 服务启动 localhost:38080||环境：test
+2018-09-10 18:30:32: [Function]
+2018-09-10 18:30:32: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:33: [Function]
+2018-09-10 18:30:33: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:34: [Function]
+2018-09-10 18:30:34: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:35: [Function]
+2018-09-10 18:30:35: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:35: [Function]
+2018-09-10 18:30:35: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:36: [Function]
+2018-09-10 18:30:36: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:37: [Function]
+2018-09-10 18:30:37: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:38: [Function]
+2018-09-10 18:30:38: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:39: [Function]
+2018-09-10 18:30:39: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:39: [Function]
+2018-09-10 18:30:40: [Function]
+2018-09-10 18:30:40: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:42: [Function]
+2018-09-10 18:30:42: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:42: 服务启动 localhost:38080||环境：test
+2018-09-10 18:30:47: [Function]
+2018-09-10 18:30:47: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:30:47: 服务启动 localhost:38080||环境：test
+2018-09-10 18:32:31: [Function]
+2018-09-10 18:32:31: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:32:31: 服务启动 localhost:38080||环境：test
+2018-09-10 18:32:38: [Function]
+2018-09-10 18:32:38: http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2018-09-10 18:32:38: 服务启动 localhost:38080||环境：test
