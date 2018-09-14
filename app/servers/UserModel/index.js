@@ -1,3 +1,9 @@
+/*
+ * @Author: yangshuwei 
+ * @Date: 2018-09-14 11:03:58 
+ * @Last Modified by:   yangshuwei 
+ * @Last Modified time: 2018-09-14 11:03:58 
+ */
 'use strict';
 const getService = require('../../untils/untils');
 module.exports = class{

@@ -4,9 +4,9 @@
   "description": "基于koa2",
   "scripts": {
     "flush": "pm2 flush",
-    "dev":  "cross-env NODE_ENV=dev node app",
+    "dev": "cross-env NODE_ENV=dev node app",
     "test": "npm run flush && pm2 restart pm2.config.json --env test",
-    "prd":  "npm run flush && pm2 restart pm2.config.json --env prd"
+    "prd": "npm run flush && pm2 restart pm2.config.json --env prd"
   },
   "repository": {
     "type": "git",
@@ -30,9 +30,11 @@
     "koa-onerror": "^4.0.0",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.3",
+    "koa-useragent": "^1.1.0",
     "koa-views": "^6.1.4",
     "koa2": "^2.0.0-alpha.7",
     "koa2-cors": "^2.0.5",
+    "koa2-useragent": "^0.2.8",
     "log4js": "^3.0.5",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.3",
@@ -40,5 +42,4 @@
     "request": "^2.88.0",
     "sequelize": "^4.37.10"
   }
-
 }

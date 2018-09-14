@@ -1,6 +1,8 @@
-/**
- * @author yangshuwei
- * @since 2018-08-01
+/*
+ * @Author: yangshuwei 
+ * @Date: 2018-09-14 11:04:08 
+ * @Last Modified by:   yangshuwei 
+ * @Last Modified time: 2018-09-14 11:04:08 
  */
 
 const request = require('request');
@@ -19,7 +21,7 @@ class RequestInterface {
             let reqUrl =opt ? url + "?" + querystring.stringify(opt) : url;
             console.log('请求url->',url);
             request(reqUrl,(err,res,body)=>{
-                console.log("返回code->",res.statusCode," 返回data-> ",body);
+                // console.log("返回code->",res.statusCode," 返回data-> ",body);
                     if(!err && res.statusCode == 200){
                         resolve(body)
                     }else{

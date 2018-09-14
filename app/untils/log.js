@@ -1,3 +1,9 @@
+/*
+ * @Author: yangshuwei 
+ * @Date: 2018-09-14 11:04:03 
+ * @Last Modified by:   yangshuwei 
+ * @Last Modified time: 2018-09-14 11:04:03 
+ */
 var log4js = require('log4js');
 
 var log_config = require('../config/log_config');
