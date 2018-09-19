@@ -1,8 +1,8 @@
 /*
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:03:54 
- * @Last Modified by:   yangshuwei 
- * @Last Modified time: 2018-09-14 11:03:54 
+ * @Last Modified by: yangshuwei
+ * @Last Modified time: 2018-09-14 13:54:30
  */
 'use strict';
 const getService = require('../../untils/untils');
@@ -19,7 +19,6 @@ module.exports = class{
                 return null;
             }
         }).catch(err=>{
-            console.log(11111111111)
             return "null";
         })
     }

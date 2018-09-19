@@ -1,21 +1,21 @@
 /*
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:04:03 
- * @Last Modified by:   yangshuwei 
- * @Last Modified time: 2018-09-14 11:04:03 
+ * @Last Modified by: yangshuwei
+ * @Last Modified time: 2018-09-14 13:59:18
  */
-var log4js = require('log4js');
+const log4js = require('log4js');
 
-var log_config = require('../config/log_config');
+const log_config = require('../config/log_config');
 
 //加载配置文件
 log4js.configure(log_config);
 
-var logUtil = {};
+const logUtil = {};
 //调用预先定义的日志名称
-var resLogger = log4js.getLogger("resLogger");
-var errorLogger = log4js.getLogger("errorLogger");
-var consoleLogger = log4js.getLogger();
+const resLogger = log4js.getLogger("resLogger");
+const errorLogger = log4js.getLogger("errorLogger");
+const consoleLogger = log4js.getLogger();
 
 
 //封装错误日志
@@ -39,8 +39,8 @@ logUtil.logInfo = function (info) {
     }
 };
 
-var formatInfo = function (info) {
-    var logText = new String();
+const formatInfo = function (info) {
+    const logText = new String();
     //响应日志开始
     logText += "\n" + "***************info log start ***************" + "\n";
 
@@ -54,8 +54,8 @@ var formatInfo = function (info) {
 }
 
 //格式化响应日志
-var formatRes = function (ctx, resTime) {
-    var logText = new String();
+const formatRes = function (ctx, resTime) {
+    const logText = new String();
     //响应日志开始
     logText += "\n" + "*************** response log start ***************" + "\n";
 
@@ -76,8 +76,8 @@ var formatRes = function (ctx, resTime) {
 }
 
 //格式化错误日志
-var formatError = function (ctx, err, resTime) {
-    var logText = new String();
+const formatError = function (ctx, err, resTime) {
+    const logText = new String();
 
     //错误信息开始
     logText += "\n" + "*************** error log start ***************" + "\n";
@@ -99,11 +99,11 @@ var formatError = function (ctx, err, resTime) {
 };
 
 //格式化请求日志
-var formatReqLog = function (req, resTime) {
+const formatReqLog = function (req, resTime) {
 
-    var logText = new String();
+    const logText = new String();
 
-    var method = req.method;
+    const method = req.method;
     //访问方法
     logText += "request method: " + method + "\n";
 
@@ -114,7 +114,7 @@ var formatReqLog = function (req, resTime) {
     logText += "request client ip:  " + req.ip + "\n";
 
     //开始时间
-    var startTime;
+    const startTime;
     //请求参数
     if (method === 'GET') {
         logText += "request query:  " + JSON.stringify(req.query) + "\n";

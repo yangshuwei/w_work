@@ -7,10 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <%for(var i=0,items;i<data.length;i++){%>
-        <% items = data[i]%>
+    <%for(var i=0,items;i<data.data.length;i++){%>
+        <% items = data.data[i]%>
         <p><%=items.labelName%></p>
     <%}%>
-    
+    <%for(var i=0,items;i<data2.data.length;i++){%>
+        <% items = data2.data[i]%>
+        <p><%=items.name%></p>
+    <%}%>
 </body>
 </html>
