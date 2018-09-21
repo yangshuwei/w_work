@@ -2,7 +2,7 @@
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:04:03 
  * @Last Modified by: yangshuwei
- * @Last Modified time: 2018-09-14 13:59:18
+ * @Last Modified time: 2018-09-21 14:46:39
  */
 const log4js = require('log4js');
 
@@ -40,7 +40,7 @@ logUtil.logInfo = function (info) {
 };
 
 const formatInfo = function (info) {
-    const logText = new String();
+    var logText = new String();
     //响应日志开始
     logText += "\n" + "***************info log start ***************" + "\n";
 
@@ -55,7 +55,7 @@ const formatInfo = function (info) {
 
 //格式化响应日志
 const formatRes = function (ctx, resTime) {
-    const logText = new String();
+   var logText = new String();
     //响应日志开始
     logText += "\n" + "*************** response log start ***************" + "\n";
 
@@ -77,7 +77,7 @@ const formatRes = function (ctx, resTime) {
 
 //格式化错误日志
 const formatError = function (ctx, err, resTime) {
-    const logText = new String();
+    var logText = new String();
 
     //错误信息开始
     logText += "\n" + "*************** error log start ***************" + "\n";
@@ -101,9 +101,9 @@ const formatError = function (ctx, err, resTime) {
 //格式化请求日志
 const formatReqLog = function (req, resTime) {
 
-    const logText = new String();
+    var logText = new String();
 
-    const method = req.method;
+    var method = req.method;
     //访问方法
     logText += "request method: " + method + "\n";
 
@@ -114,7 +114,7 @@ const formatReqLog = function (req, resTime) {
     logText += "request client ip:  " + req.ip + "\n";
 
     //开始时间
-    const startTime;
+    var startTime;
     //请求参数
     if (method === 'GET') {
         logText += "request query:  " + JSON.stringify(req.query) + "\n";

@@ -13,7 +13,7 @@
         "instances": 1,
         "log_date_format": "YYYY-MM-DD HH:mm:ss",
         "date_format": "YYYY-MM-DD HH:mm:ss",
-        "out_file": "log/out.log",
+        "out_file": "http://127.0.0.1:35050/out.log",
         "error_file": "log/error.log",
         "exec_mode": "fork",
         "merge_logs": true,

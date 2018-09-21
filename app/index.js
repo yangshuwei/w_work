@@ -1,8 +1,9 @@
+
 /*
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:04:26 
- * @Last Modified by:   yangshuwei 
- * @Last Modified time: 2018-09-14 11:04:26 
+ * @Last Modified by: yangshuwei
+ * @Last Modified time: 2018-09-21 14:44:56
  */
 const path = require('path');
 const bodyParser = require('koa-bodyparser'); //koa-bodyparser
@@ -11,15 +12,13 @@ const views = require('koa-views')
 
 const json = require('koa-json')
 
-// const logUtil = require('./untils/log')
+const logUtil = require('./untils/log')
 const onerror = require('koa-onerror') //？删
 const logger = require('koa-logger')
 
 const render = require('koa-art-template');
 const config = require('./config/base.js');
 const router = require(YUS.router + 'index');
-
-// const status404 = require('./middle/404')
 const _error = require('./middle/error');
 const userAgent = require('koa2-useragent').default;
 
@@ -39,25 +38,25 @@ let index = function (app) {
 
     
     //4.打印请求
-    // app.use(async (ctx, next) => {
-    //     //响应开始时间
-    //     const start = new Date();
-    //     //响应间隔时间
-    //     var ms;
-    //     try {
-    //         //开始进入到下一个中间件
-    //         await next();
-    //         ms = new Date() - start;
-    //         //记录响应日志
-    //         logUtil.logResponse(ctx, ms);
+    app.use(async (ctx, next) => {
+        //响应开始时间
+        const start = new Date();
+        //响应间隔时间
+        var ms;
+        try {
+            //开始进入到下一个中间件
+            await next();
+            ms = new Date() - start;
+            //记录响应日志
+            logUtil.logResponse(ctx, ms);
 
-    //     } catch (error) {
-    //         console.log(error)
-    //         ms = new Date() - start;
-    //         //记录异常日志
-    //         logUtil.logError(ctx, error, ms);
-    //     }
-    // });
+        } catch (error) {
+            console.log(error)
+            ms = new Date() - start;
+            //记录异常日志
+            logUtil.logError(ctx, error, ms);
+        }
+    });
     // app.use(logger())
     //5.静态资源
     app.use(static(YUS.public));
