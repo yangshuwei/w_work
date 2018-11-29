@@ -2,7 +2,7 @@
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:03:10 
  * @Last Modified by: yangshuwei
- * @Last Modified time: 2018-09-19 13:33:03
+ * @Last Modified time: 2018-11-29 16:54:11
  */
 const path = require('path');
 
@@ -12,7 +12,7 @@ function pathJoin(_path){
 
 let map = new Map();
 
-map.set('dev',{port:3000});
+map.set('dev',{port:3500});
 
 map.set('test',{port:38080});
 

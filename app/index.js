@@ -3,7 +3,7 @@
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:04:26 
  * @Last Modified by: yangshuwei
- * @Last Modified time: 2018-09-21 14:44:56
+ * @Last Modified time: 2018-09-25 14:39:23
  */
 const path = require('path');
 const bodyParser = require('koa-bodyparser'); //koa-bodyparser
@@ -16,7 +16,7 @@ const logUtil = require('./untils/log')
 const onerror = require('koa-onerror') //？删
 const logger = require('koa-logger')
 
-const render = require('koa-art-template');
+// const render = require('koa-art-template');
 const config = require('./config/base.js');
 const router = require(YUS.router + 'index');
 const _error = require('./middle/error');
