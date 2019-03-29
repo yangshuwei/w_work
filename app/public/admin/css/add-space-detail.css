@@ -1,0 +1,217 @@
+body{
+	width: 100%;
+}
+
+/*項目選擇*/
+.select-program-con{
+	height: 93px;
+	background: #fff;
+	border:1px solid rgba(228, 228, 228, 1);
+	padding: 18px 40px 12px 24px;
+	color: #999;
+	overflow: hidden;
+}
+.select-program-con .address{
+	font-size: 14px;
+	font-weight: 700;
+}
+.apartment{
+	font-size: 12px;
+	margin-left: 20px;
+}
+.total-price{
+	float: right;
+}
+.button-con{
+	margin-top: 10px;
+}
+.button-item ul li{
+	float: left;
+}
+.button-con .button-item .item{
+	height: 32px;
+	line-height: 30px;
+	border: 1px solid rgba(228, 228, 228, 1);
+	margin-right: 20px;
+	color: #666;
+}
+.button-con .button-item .item .sub,.button-con .button-item .item .add{
+	font-size: 18px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-right: 1px solid rgba(228, 228, 228, 1);
+	font-weight: bold;
+}
+.button-con .button-item .item .add{
+	border-right: none;
+	border-left: 1px solid rgba(228, 228, 228, 1);
+	font-weight: 500;
+}
+.button-con .button-item .item input{
+	width: 20px;
+	border: none;
+	text-align: center;
+	vertical-align: text-top;
+}
+.button-con .button-item .item .name{
+	vertical-align: top;
+}
+.change-program{
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	border-radius: 4px;
+	background: rgba(26, 188, 156, 1);
+}
+/*添加项目*/
+.program-info-main{
+	border: 1px solid rgba(228, 228, 228, 1);
+}
+.program-info-main .info-header{
+	height: 45px;
+	line-height: 35px;
+	border-bottom: 1px solid rgba(228, 228, 228, 1);
+}
+.edit-space-name{
+	width: 90px;
+	background: rgba(26, 188, 156, 1);
+	border-radius: 2px;
+	line-height: 30px;
+}
+.space-name{
+	color: #A49F9A;
+	font-weight: 500;
+}
+.fold{
+	width: 90px;
+	border: 1px solid #17A488;;
+	border-radius: 2px;
+	line-height: 28px;
+	color: #17A488;
+}
+.upload-top .view-img{
+	width: 150px;
+	height: 150px;
+	border: 1px solid rgba(228, 228, 228, 1);
+}
+.up-btn{
+	height: 30px;
+	line-height: 30px;
+}
+.input-address{
+	height: 40px;
+	width: 390px;
+	line-height: 40px;
+	border:none;
+	border: 1px solid rgba(228, 228, 228, 1);
+	margin-left: 100px;
+}
+.add-baseproduct-con .add-search input{
+	margin-left: 5px;
+	border-right: none;
+}
+.add-search-btn{
+	width: 67px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	background: rgba(26, 188, 156, 1);
+	margin-left: -13px;
+	vertical-align: bottom;
+}
+.add-foot {
+	margin-left: 100px;
+	clear: both;
+}
+.add-foot .add-item{
+	font-size: 12px;
+	width: 180px;
+	/*height: 280px;*/
+	border: 1px solid rgba(228, 228, 228, 1);
+}
+.add-item-img{
+	width: 180px;
+	height: 180px;
+}
+.purchase-price{
+	background: #666;
+}
+.product-name{
+	height: 40px;
+	font-size: 12px;
+	background: rgba(0, 193, 222, 1);
+	color: #fff;
+	padding: 3px 10px;
+}
+.single-con{
+	height: 35px;
+	line-height: 35px;
+}
+.add-num-con{
+	border-top: 1px solid rgba(228, 228, 228, 1);
+}
+.add-num-con .sub{
+	border-right: 1px solid rgba(228, 228, 228, 1);
+}
+.add-num-con .add{
+	border-left: 1px solid rgba(228, 228, 228, 1);
+}
+.add-num-con span{
+	width: 56px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.bg-single{
+	background: rgba(26, 188, 156, 1);
+	color: #fff;
+}
+.save-space-con{
+	height: 45px;
+	line-height: 45px;
+	border-top: 1px solid rgba(228, 228, 228, 1);
+	margin-top: 40px;
+}
+.save-space-btn{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(26, 188, 156, 1);
+	margin-right: 20px;
+	color: #fff;
+	border-radius: 2px;
+}
+/*list*/
+.list-info-con{
+	margin-top: 20px;
+}
+.list-info-con .item-list{
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid rgba(228, 228, 228, 1);
+}
+.footer-con{
+	text-align: right;
+	margin-top: 90px;
+	margin-right: 108px;
+}
+.footer-con span{
+	width: 180px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.footer-con .prev-btn{
+	border: 1px solid rgba(26, 188, 156, 1);
+	color: #1ABC9C;
+	margin-right: 20px;
+}
+.footer-con .next-btn{
+	background: rgba(26, 188, 156, 1);;
+	border: 1px solid rgba(26, 188, 156, 1);
+	color: #fff;
+}

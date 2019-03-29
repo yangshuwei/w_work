@@ -1,2 +1,137 @@
-2018-09-20 14:07:07: [Function]
-2018-09-20 14:07:07: 服务启动 localhost:3000||环境：dev
+2019-03-29 10:33:21: 请求url-> http://mobiletest.ehaier.com:38080/sg/cms/revision/getCategory.json
+2019-03-29 10:33:21: { success: true,
+  errorCode: null,
+  message: null,
+  data: 
+   [ { id: -1, labelName: '精选' },
+     { id: 48, labelName: '冰箱' },
+     { id: 49, labelName: '洗衣机' },
+     { id: 50, labelName: '冷柜' },
+     { id: 70, labelName: '空调' },
+     { id: 71, labelName: '家庭保健产品' },
+     { id: 72, labelName: '生活家电' },
+     { id: 73, labelName: '电脑' },
+     { id: 74, labelName: '热水器' },
+     { id: 75, labelName: '厨房电器' },
+     { id: 110, labelName: '跑步机' },
+     { id: 76, labelName: '彩电' },
+     { id: 78, labelName: '水家电' },
+     { id: 77, labelName: '家用中央空调' },
+     { id: 79, labelName: '延保服务' },
+     { id: 80, labelName: '智能产品' },
+     { id: 81, labelName: '百货超市' },
+     { id: 82, labelName: '众筹夺宝' },
+     { id: 83, labelName: '永安当' },
+     { id: 84, labelName: '儿童用品' },
+     { id: 85, labelName: '电子礼品卡' },
+     { id: 86, labelName: '医疗冷柜' } ],
+  totalCount: 0 }
+2019-03-29 10:33:21: 请求url-> http://mobiletest.ehaier.com:38080/sg/cms/revision/newProductList.json
+2019-03-29 10:33:23: { success: true,
+  errorCode: null,
+  message: null,
+  data: 
+   [ { id: 14974,
+       name: '海尔 冰箱 600000M16',
+       title: '1111',
+       imageUrl: 'http://cdn21test.ehaier.com:8080/file/59fac4702461088db91854c3.png',
+       price: 0.01,
+       commission: 0,
+       saleNum: 7,
+       sku: '600000M16',
+       sortNum: 1 },
+     { id: 1000219,
+       name: '小精灵 手机 IPHONEX003',
+       title: '副标题：Apple iphone X（A1660）128G黑色移动联通电信4G手机',
+       imageUrl: 'http://sg-file-test.oss-cn-beijing.aliyuncs.com/mobilemall-admin-web/productauditcontroller/image/2018/11/086c30ac9d304fe8a6435c211a872971.jpg',
+       price: 3334,
+       commission: 166.7,
+       saleNum: 21,
+       sku: 'IPHONEX003',
+       sortNum: 1 },
+     { id: 1000001,
+       name: 'Haier/海尔 冰箱 O2O测试001',
+       title: 'O2O商品',
+       imageUrl: 'http://cdn02.ehaier.com/product/59b0addf0b575acb35000006.jpg',
+       price: 1999,
+       commission: 39.98,
+       saleNum: 0,
+       sku: '020TEST001',
+       sortNum: 2 },
+     { id: 1000269,
+       name: 'HX测试 冰箱 BCD-HX002',
+       title: '',
+       imageUrl: 'http://sg-file-test.oss-cn-beijing.aliyuncs.com/mongo/image/5b066eb20b575a6f56000009.png',
+       price: 1289,
+       commission: 0,
+       saleNum: 1,
+       sku: 'HXWA002',
+       sortNum: 3 },
+     { id: 1000329,
+       name: 'HX测试 冰箱 BCD-HXO2O001',
+       title: 'BCD-HXO2O001',
+       imageUrl: 'http://cdn02.ehaier.com/product/4e2fbaa934198c4c7a00001e.jpg',
+       price: 78955,
+       commission: 7.9,
+       saleNum: 0,
+       sku: 'HXO2O001',
+       sortNum: 3 },
+     { id: 1000328,
+       name: 'Haier/海尔 冰箱 XR00002O2O',
+       title: 'XR00002O2O',
+       imageUrl: 'http://sg-file-test.oss-cn-beijing.aliyuncs.com/mobilemall-admin-web/picmanagecontroller/image/2018/08/e69e08c3208f40a88d34d341480e39b0.jpg',
+       price: 4000,
+       commission: 200,
+       saleNum: 43,
+       sku: 'XR00002O2O',
+       sortNum: 4 },
+     { id: 2450,
+       name: 'Haier/海尔 波轮洗衣机 海尔波轮洗衣机XPB85-1187BS 家家喜',
+       title: '全塑外壳 不怕水  不生锈',
+       imageUrl: 'http://cdn02.ehaier.com/product/4e4b33ce34198ce11b0009a5.jpg',
+       price: 5001,
+       commission: 0,
+       saleNum: 0,
+       sku: 'CA0JT0000',
+       sortNum: 5 } ],
+  totalCount: 0 }
+2019-03-29 11:33:40: [Function]
+2019-03-29 11:33:43: [Function]
+2019-03-29 11:33:47: 服务启动 localhost:3500||环境：dev
+2019-03-29 11:36:31: [Function]
+2019-03-29 11:36:31: [Function]
+2019-03-29 11:36:31: [Function]
+2019-03-29 11:36:31: [Function]
+2019-03-29 11:36:31: [Function]
+2019-03-29 11:36:32: [Function]
+2019-03-29 11:36:32: [Function]
+2019-03-29 11:36:32: [Function]
+2019-03-29 11:36:32: [Function]
+2019-03-29 11:36:32: [Function]
+2019-03-29 11:36:33: [Function]
+2019-03-29 11:36:33: [Function]
+2019-03-29 11:36:33: [Function]
+2019-03-29 11:36:34: [Function]
+2019-03-29 11:36:34: [Function]
+2019-03-29 11:36:34: [Function]
+2019-03-29 11:36:34: [Function]
+2019-03-29 11:36:35: [Function]
+2019-03-29 11:36:36: [Function]
+2019-03-29 11:36:36: [Function]
+2019-03-29 11:36:36: [Function]
+2019-03-29 11:36:36: [Function]
+2019-03-29 11:36:36: 服务启动 localhost:3500||环境：dev
+2019-03-29 11:36:37: [Function]
+2019-03-29 11:36:37: [Function]
+2019-03-29 11:36:37: [Function]
+2019-03-29 11:36:37: [Function]
+2019-03-29 11:36:38: [Function]
+2019-03-29 11:36:38: [Function]
+2019-03-29 11:36:38: [Function]
+2019-03-29 11:36:38: [Function]
+2019-03-29 11:36:39: [Function]
+2019-03-29 11:36:39: [Function]
+2019-03-29 11:36:39: [Function]
+2019-03-29 11:36:39: [Function]
+2019-03-29 11:36:39: [Function]
+2019-03-29 11:36:40: [Function]

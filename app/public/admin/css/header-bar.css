@@ -1,0 +1,103 @@
+.font-700{
+    font-weight: 700
+}
+.cursor-p{
+    cursor: pointer;
+}
+.border-all{
+    border: 1px solid rgba(228, 228, 228, 1);
+}
+.space-container{
+	width: 1100px;
+	/*height: 1000px;*/
+	padding-bottom: 100px;
+	overflow: hidden;
+	margin: 50px auto 0;
+	
+}
+.header-bar{
+	height: 120px;
+	position: relative;
+	overflow: hidden;
+}
+.speed-con{
+	margin-top:36px;
+	z-index: 2;
+	margin-left: 80px;
+	margin-top: 0;
+	/*overflow: hidden;*/
+}
+.speed-con .speed-con-p{
+	/*padding-left:33px ;*/
+}
+.header-bar .header-line {
+	position: absolute;
+    border-width: 0px;
+    width: 895px;
+    height: 2px;
+    font-size: 16px;
+    color: #999999;
+    top:60px;
+    left: 48px;
+}
+.header-bar .bar-comm{
+	float: left;
+}
+.header-bar .bar-comm .bar_title{
+	/*padding-left: 33px;*/
+}
+.header-bar .bar-comm .bar_title .num{
+	display: inline-block;
+    border-width: 0px;
+    width: 48px;
+    height: 48px;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #ccc;
+    border: 2px solid rgba(234, 237, 241, 1);
+    text-align: center;
+    line-height: 48px;
+    border-radius: 48px;
+    z-index: 999;
+}
+.header-bar .bar-comm .bar_title .num.current{
+    background:rgba(0, 193, 222, 1);
+    border: 2px solid rgba(0, 193, 222, 1);
+    color: #fff;
+}
+.header-bar .bar-comm .bar_title .line{
+	display: inline-block;
+	width: 168px;
+	height: 2px;
+	background: rgba(234, 237, 241, 1);
+	vertical-align: super;
+    margin-left: -3px;
+    margin-bottom: 3px;
+}
+.header-bar .bar-comm .bar_title .line.current{
+    background:rgba(0, 193, 222, 1);
+    margin-left: -4px;
+}
+.speen-info{
+	overflow: hidden;
+}
+.bar_bottom{
+	border-width: 0px;
+    width: 111px;
+    height: 24px;
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    color: #999;
+    line-height: 20px;
+    margin-top: 15px;
+    float: left;
+    text-align: left;
+    margin-left: -13px;
+}
+.bar_bottom.current{
+    color:#00C1DE;
+}
+/* footer */

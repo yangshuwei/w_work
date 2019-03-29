@@ -1,0 +1,82 @@
+.select-house-type-main{
+	height: 630px;
+	border: 1px solid rgba(228, 228, 228, 1);
+}
+.select-house-type-main .left{
+	width: 180px;
+	height: 630px;
+	background: rgba(228, 228, 228, 1);
+}
+.select-house-type-main .right{
+	padding: 50px 0 0 60px;
+	height: 630px;
+	width: 915px;
+}
+.left-bg{
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: 400;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background: url('../images/icon-xzhx.png') no-repeat;
+}
+.search-input select{
+	width: 84px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-align-last: center;
+}
+.search-text{
+	border: 1px solid rgb(169, 169, 169);
+	border-left: none;
+	border-right: none;
+}
+.search-text input{
+	width: 390px;
+	border: none;
+	height: 38px;
+	line-height: 40px;
+}
+.search-btn{
+	width: 67px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	background: rgba(26, 188, 156, 1);
+	text-align: center;
+}
+.search-history .history-item{
+	padding: 3px 15px;
+	border-radius: 50px;
+}
+.finish-select{
+	width: 245px;
+	margin-top: 50px;
+	line-height: 20px;
+}
+.finish-select .house-img{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.select-status{
+	width: 245px;
+	margin-top: 10px;
+}
+.select-status .img{
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+.next-btn{
+	width: 180px;
+	height: 45px;
+	line-height: 45px;
+	background: rgba(26, 188, 156, 1);
+	text-align: center;
+	color: #fff;
+	margin: 30px auto 0;
+  font-weight: 400;
+}

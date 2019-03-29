@@ -2,9 +2,9 @@
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:03:29 
  * @Last Modified by: yangshuwei
- * @Last Modified time: 2018-09-20 16:34:57
+ * @Last Modified time: 2019-03-29 11:36:35
  */
-const user = require(`${YUS.servers}/UserModel/index`);
+const user = require(`${w.servers}/UserModel/index`);
 const ua = require('../../middle/userAgentCount');
 module.exports={
     'GET /': async  (ctx,next) => {

@@ -1,10 +1,10 @@
 /*
  * @Author: yangshuwei 
  * @Date: 2018-09-14 11:03:25 
- * @Last Modified by:   yangshuwei 
- * @Last Modified time: 2018-09-14 11:03:25 
+ * @Last Modified by: yangshuwei
+ * @Last Modified time: 2019-03-29 11:36:30
  */
-const user = require(`${YUS.servers}/ProductDetail/index`);
+const user = require(`${w.servers}/ProductDetail/index`);
 console.log(user)
 module.exports={
     'GET /detail':async (ctx,next) => {

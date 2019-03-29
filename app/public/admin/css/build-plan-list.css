@@ -1,0 +1,67 @@
+.build-plan-con{
+  background: #fff;
+  padding: 30px 0 0 50px;
+  height: 1000px;
+}
+.list-info{
+  width: 820px;
+  padding: 15px 10px;
+  background: rgba(242, 242, 242, 1);
+  border-radius: 4px;
+}
+.list-top .line{
+  width: 850px;
+  height: 0;
+  border-top:1px dotted  #ccc;
+}
+.info-item-con .item-name{
+  color: #00C1DE;
+  font-weight: 700;
+}
+.base-table{
+  border-radius: 4px;
+  width: 900px;
+}
+.base-table .title{
+  height: 45px;
+  line-height: 45px;
+  background: rgba(249, 250, 252, 1);
+}
+.base-table .detail-info ul li{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+ }
+  .base-table .detail-info ul{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+ .base-table .detail-info ul li.info-list-1{
+   width: 500px;
+ }
+ .base-table .detail-info ul li.info-list-2{
+   width: 140px;
+ }
+ .footer-con{
+	text-align: right;
+	margin-top: 90px;
+	margin-right: 108px;
+}
+.footer-con span{
+	width: 180px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.footer-con .prev-btn{
+	border: 1px solid rgba(26, 188, 156, 1);
+	color: #1ABC9C;
+	margin-right: 20px;
+}
+.footer-con .next-btn{
+	background: rgba(26, 188, 156, 1);;
+	border: 1px solid rgba(26, 188, 156, 1);
+	color: #fff;
+}

@@ -1,0 +1,69 @@
+.select-house-type-main{
+  border: 1px solid rgba(228, 228, 228, 1);
+}
+.select-house-type-main .left{
+	width: 180px;
+	min-height: 685px;
+	background: rgba(228, 228, 228, 1);
+}
+.select-house-type-main .right{
+	padding: 50px 0 0 60px;
+	width: 915px;
+}
+.left-bg{
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: 400;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background: url('../images/icon-xzhx.png') no-repeat;
+}
+ .footer-con{
+	text-align: center;
+	margin-top: 90px;
+	margin-right: 108px;
+}
+.footer-con span{
+	width: 180px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.footer-con .prev-btn{
+	border: 1px solid rgba(26, 188, 156, 1);
+	color: #1ABC9C;
+	margin-right: 20px;
+}
+.footer-con .next-btn{
+	background: rgba(26, 188, 156, 1);;
+	border: 1px solid rgba(26, 188, 156, 1);
+	color: #fff;
+}
+.explain{
+  padding: 10px;
+  background: rgba(242, 242, 242, 1);
+  width: 700px;
+  border-radius: 4px;
+}
+.sure-info-con{
+  width: 730px;
+  margin: 30px auto;
+}
+.sure-info-con .left-title{
+  width: 100px;
+  vertical-align: top;
+  text-align: right;
+  color: #666;
+}
+.earnest-con{
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 3px;
+}
+.earnest-con input{
+  border: none;
+  width:100px ;
+}
