@@ -1,15 +1,21 @@
-var log4js = require('log4js');
+/*
+ * @Author: yangshuwei 
+ * @Date: 2018-09-14 11:04:03 
+ * @Last Modified by: yangshuwei
+ * @Last Modified time: 2018-09-21 14:46:39
+ */
+const log4js = require('log4js');
 
-var log_config = require('../config/log_config');
+const log_config = require('../config/log_config');
 
 //加载配置文件
 log4js.configure(log_config);
 
-var logUtil = {};
+const logUtil = {};
 //调用预先定义的日志名称
-var resLogger = log4js.getLogger("resLogger");
-var errorLogger = log4js.getLogger("errorLogger");
-var consoleLogger = log4js.getLogger();
+const resLogger = log4js.getLogger("resLogger");
+const errorLogger = log4js.getLogger("errorLogger");
+const consoleLogger = log4js.getLogger();
 
 
 //封装错误日志
@@ -33,7 +39,7 @@ logUtil.logInfo = function (info) {
     }
 };
 
-var formatInfo = function (info) {
+const formatInfo = function (info) {
     var logText = new String();
     //响应日志开始
     logText += "\n" + "***************info log start ***************" + "\n";
@@ -48,8 +54,8 @@ var formatInfo = function (info) {
 }
 
 //格式化响应日志
-var formatRes = function (ctx, resTime) {
-    var logText = new String();
+const formatRes = function (ctx, resTime) {
+   var logText = new String();
     //响应日志开始
     logText += "\n" + "*************** response log start ***************" + "\n";
 
@@ -70,7 +76,7 @@ var formatRes = function (ctx, resTime) {
 }
 
 //格式化错误日志
-var formatError = function (ctx, err, resTime) {
+const formatError = function (ctx, err, resTime) {
     var logText = new String();
 
     //错误信息开始
@@ -93,7 +99,7 @@ var formatError = function (ctx, err, resTime) {
 };
 
 //格式化请求日志
-var formatReqLog = function (req, resTime) {
+const formatReqLog = function (req, resTime) {
 
     var logText = new String();
 

@@ -1,3 +1,9 @@
+/*
+ * @Author: yangshuwei 
+ * @Date: 2018-09-14 11:03:44 
+ * @Last Modified by: yangshuwei
+ * @Last Modified time: 2019-03-29 11:34:37
+ */
 const fs = require('fs');
 const router = require('koa-router')();
 
@@ -7,11 +13,11 @@ const router = require('koa-router')();
  */
 function addControllers(router,dir){
     //获取制定目录下所有文件名
-    fs.readdirSync(YUS.controller+dir).filter((f)=>{
+    fs.readdirSync(w.controller+dir).filter((f)=>{
         return f.endsWith('.js');
     }).forEach((f)=>{
         //获取每一个controller文件，引入
-        let file = require(YUS.controller+`${dir}/${f}`);
+        let file = require(w.controller+`${dir}/${f}`);
         addRoute(router, file);
     })
 }
@@ -52,7 +58,7 @@ function filterFolder(url){
     })
 }
 
-let allFolder = filterFolder(YUS.controller);
+let allFolder = filterFolder(w.controller);
 
 allFolder.forEach((item)=>{
     addControllers(router,item);

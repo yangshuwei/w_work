@@ -10,7 +10,7 @@ const logUtil = require('./untils/log')
 // const onerror = require('koa-onerror') //？删
 const logger = require('koa-logger')
 
-const render = require('koa-art-template');
+// const render = require('koa-art-template');
 const config = require('./config/base.js');
 const router = require(YUS.router + 'index');
 
@@ -24,6 +24,12 @@ const format = require('./untils/response').format;
 // // const status500 = require('./middle/500')
 
 let index = function (app) {
+
+    app.use(userAgent());
+    // app.use(async (ctx, next) => {
+    //     await next();
+    // });
+
     //1.错误提示
     // onerror(app);
     //2.解析post
@@ -52,7 +58,7 @@ let index = function (app) {
     });
     // app.use(logger())
     //5.静态资源
-    app.use(static(YUS.public));
+    app.use(static(w.public));
     //6.加载模板引擎
     app.use(views(YUS.view, {
         map: { html: 'ejs' }

@@ -1,3 +1,9 @@
+/*
+ * @Author: yangshuwei 
+ * @Date: 2018-09-14 11:03:20 
+ * @Last Modified by:   yangshuwei 
+ * @Last Modified time: 2018-09-14 11:03:20 
+ */
 "use script"
 module.exports = class{
      static serverUrl(_url){
